@@ -66,37 +66,21 @@
 // }
 
 //task 5
-// let array = [];
-// for (let i = 0; i < 1; i++) {
-//     console.log('Anya');
-// }
-// for (let i = 1; i < 2; i++) {
-//     console.log(25);
-// }
-// for (let i = 2; i < 3; i++) {
-//     console.log(true);
-// }
-// for (let i = 3; i < 4; i++) {
-//     console.log(33);
-// }
-// for (let i = 4; i < 5; i++) {
-//     console.log('Vasya');
-// }
-// for (let i = 5; i < 6; i++) {
-//     console.log(false);
-// }
-// for (let i = 6; i < 7; i++) {
-//     console.log('Olya');
-// }
-// for (let i = 7; i < 8; i++) {
-//     console.log(30);
-// }
-// for (let i = 8; i < 9; i++) {
-//     console.log(true);
-// }
-// for (let i = 9; i < 10; i++) {
-//     console.log(null);
-// }
+    let array = [];
+    array[0] = 'Anya';
+    array[1] = 25;
+    array[2] = true;
+    array[3] = 'Vasya';
+    array[4] = 33;
+    array[5] = false;
+    array[6] = 'Olya';
+    array[7] = 30;
+    array[8] = true;
+    array[9] = null;
+for (i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
+
 
 // for (let i = 0; i < 10; i++) {
 //     console.log(`Item ${i}`);
