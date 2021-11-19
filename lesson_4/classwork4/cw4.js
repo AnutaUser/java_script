@@ -119,10 +119,10 @@
 // 10 Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
 let numbers = [25, 34, 15, 5124, 2021, 2];
 
-function revers(numbers) {
-    let num = numbers;
-    for (let i = num.length - 1, el = 0; i >= 0; i--, el++) {
-        num[el] = num[i];
+function revers(number) {
+    let num = [];
+    for (let i = number.length - 1, el = 0; i >= 0; i--, el++) {
+        num[el] = number[i];
     }
     return num;
 }
