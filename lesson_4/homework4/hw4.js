@@ -4,7 +4,7 @@
 //     console.log(b);
 //     return a * b;
 // }
-// console.log(squareRectangle(2, 44));
+// document.write(squareRectangle(2, 44));
 
 // 2  створити функцію яка обчислює та повертає площу кола з радіусом r
 // function squareCircle(r) {
@@ -20,7 +20,7 @@
 // console.log(volumeCylinder(10, 2));
 
 // 4 створити функцію яка приймає масив та виводить кожен його елемент
-// let array = [2, 5, 'Vasya', true]
+// let array = [2, 5, 'Vasya', true];
 // function arrayObj(array) {
 //         for (i = 0; i < array.length; i++) {
 //                 document.write(array[i]);
@@ -40,13 +40,14 @@
 // function paragraf(text) {
 //     document.write(`<p>${text}</p>`);
 // }
-// paragraf("cmsdmcsdk zsx v45v vmskn")
+// paragraf("cmsdmcsdk zsx v45v vmskn");
+//
 // function par(text) {
 //     for (i = 0; i < 5; i++) {
 //         document.write(`<p>${text}</p>`);
 //     }
 // }
-// par("jcnscn efciacm")
+// par("jcnscn efciacm");
 
 // 6 створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 // function unOrdered(list) {
