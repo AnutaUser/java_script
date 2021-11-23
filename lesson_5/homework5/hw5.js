@@ -67,6 +67,11 @@
 //     document.write(`</ol>`);
 // }
 // elementArray(array);
+//
+// let restFn = (...arr) => {
+//     document.write(`<div>${arr}</div>`);
+// };
+// restFn(array);
 
 // 9 створити функцію яка приймає масив об'єктів з наступними полями id,name,age ,
 // та виводить їх в документ. Для кожного об'єкту окремий блок.
