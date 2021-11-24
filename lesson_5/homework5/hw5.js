@@ -14,17 +14,20 @@
 // console.log(cylinderArea(5, 10));
 
 // 4 створити функцію яка приймає масив та виводить кожен його елемент
-// let array = [25, 'Vasya', true, 31, 'Sveta', false, null, 58];
-//
-// let takeArray = (array) => [array];
-// console.log(takeArray(array));
-//
-// let takeArray2 = (array) => {
-//     for (i = 0; i < array.length; i++) {
-//     }
-//     return array;
-// }
-// console.log(takeArray2(array));
+let array = [25, 'Vasya', true, 31, 'Sveta', false, null, 58];
+
+let takeArray = (array) => [array];
+console.log(takeArray(array));
+document.write(`<div>${takeArray(array)}</div>`);
+
+let takeArray2 = (array) => {
+    for (let i = 0; i < array.length; i++) {
+        document.write(array[i]);
+        console.log(array[i]);
+    }
+}
+takeArray2(array);
+
 
 // 5 створити функцію яка  створює параграф з текстом. Текст задати через аргумент
 //
