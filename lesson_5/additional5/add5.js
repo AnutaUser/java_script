@@ -39,17 +39,20 @@
 
 let array = [9, 8, 0, 4];
 let foo = (array, i) => {
-    let arr = [];
+    let arr = array;
     for (let i = 0; i < array.length; i++) {
-        arr[`${i}`] = arr[`${i+1}`]
+        if (arr){
+            arr[i] = arr[i+1];
+            // arr[i] = arr[i + 1]
+        }
         }
 
     return arr;
 }
     console.log(foo(array, 0));
-    // console.log(foo(array, 1));
-    // console.log(foo(array, 2));
-    // document.write(foo(array, 0));
+    console.log(foo(array, 1));
+    console.log(foo(array, 2));
+    document.write(foo(array, 0));
 
 // - Сворити функцію яка буде переносити елементи з значенням 0 у кінець маисву.
 // Зберігаючи при цьому порядок не нульових значень.
