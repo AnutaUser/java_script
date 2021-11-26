@@ -84,20 +84,20 @@
 
 // 8 Напишіть функцію, яка приймає рядок як аргумент і перетворює регістр першого
 // символу рядка з нижнього регістру у верхній.
-
-let str = 'kаждый охотник желает знать';
-let uppercase = (str) => {
-      // if (!str) return str;
-      return str[0].toUpperCase() + str.slice(1);
-};
-console.log(uppercase(str));
+//
+// let str = 'kаждый охотник желает знать';
+// let uppercase = (str) => {
+//       // if (!str) return str;
+//       return str[0].toUpperCase() + str.slice(1);
+// };
+// console.log(uppercase(str));
 
 // 9 Напишіть функцію capitalize(str), яка повертає рядок, у якому кожне слово
 // починається з великої літери.
-let capitalize = (str) => {
-      return str[0].toUpperCase() + str.slice(1, 7)
-          + str[7].toUpperCase() + str.slice(8, 15)
-          + str[15].toUpperCase() + str.slice(16, 22)
-          + str[22].toUpperCase() + str.slice(23);
-}
-console.log(capitalize(str));
+// let capitalize = (str) => {
+//       return str[0].toUpperCase() + str.slice(1, 7)
+//           + str[7].toUpperCase() + str.slice(8, 15)
+//           + str[15].toUpperCase() + str.slice(16, 22)
+//           + str[22].toUpperCase() + str.slice(23);
+// }
+// console.log(capitalize(str));
