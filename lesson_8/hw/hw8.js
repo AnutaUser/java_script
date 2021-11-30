@@ -4,20 +4,20 @@
 //     document.getElementsByClassName або document.getElementsByTagName :
 // -- отримує текст з параграфа з id "content"
 
-let elementByTagName = document.getElementsByTagName('p');
-console.log(elementByTagName);
+let pElement = document.getElementsByTagName('p');
+console.log(pElement.innerText);
 
 // -- отримує текст з блоку з id "rules"
 let elementById = document.getElementById('rules');
-console.log(elementById);
+console.log(elementById.innerText);
 
 // -- замініть текст параграфа з id 'content' на будь-який інший
-let byId = document.getElementById('content');
-console.log(byId.innerText = 'Первое правило Бойцовского клуба: никому не рассказывать о Бойцовском клубе.');
+let content = document.getElementById('content');
+console.log(content.innerText = 'Первое правило Бойцовского клуба: никому не рассказывать о Бойцовском клубе.');
 
 // -- замініть текст параграфа з id 'rules' на будь-який інший
-let byTagName = document.getElementsByTagName('div');
-console.log(byTagName.innerText = ('Второе правило Бойцовского клуба: никогда никому не рассказывать о Бойцовском клубе'));
+let rules = document.getElementById('rules');
+console.log(rules.innerText = ('Второе правило Бойцовского клуба: никогда никому не рассказывать о Бойцовском клубе'));
 
 // -- змініть кожному елементу колір фону на червоний
 let elById1 = document.getElementById('content');
