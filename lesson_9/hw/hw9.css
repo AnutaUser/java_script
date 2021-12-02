@@ -1,0 +1,46 @@
+/*body {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+.wrap {
+    background: black;
+    font-size: 20px;
+    text-align: justify;
+    width: 700px;
+    padding: 10px;
+    border: 5px solid rebeccapurple;
+    border-radius: 5px;
+    color: #50e5ff;
+}
+.main {
+    background: #50e5ff;
+}
+.target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.target > h2 {
+    padding-right: 10px;
+}
+
+.number {
+    font-size: 30px;
+}
+
+
+
+.item {
+    display: flex;
+}
+.heading {
+    margin-right: 10px;
+    background: coral;
+    color: grey;
+}
+.description {
+    font-size: 25px;
+    font-weight: bold;
+    color: #921a1a;
+}
