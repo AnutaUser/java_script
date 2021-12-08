@@ -152,18 +152,23 @@ let coursesArray = [
 
 for (const arr of coursesArray) {
     let divCourses = document.createElement('div');
-    divCourses.setAttribute('class', 'courses')
+    divCourses.setAttribute('class', 'courses');
+
     let h1Title = document.createElement('h1');
     // h1Title.setAttribute('class', 'h1');
     h1Title.innerText = arr.title;
+
     let divMonHour = document.createElement('div');
-    divMonHour.setAttribute('class', 'monHour')
-    let pMonthDuration = document.createElement('p')
+    divMonHour.setAttribute('class', 'monHour');
+
+    let pMonthDuration = document.createElement('p');
     pMonthDuration.setAttribute('class', 'p1');
     pMonthDuration.innerText = arr.monthDuration;
+
     let pHourDuration = document.createElement('p');
     pHourDuration.setAttribute('class', 'p2');
     pHourDuration.innerText = arr.hourDuration;
+
     let divModules = document.createElement('div');
     divModules.setAttribute('class', 'divModules');
     for (const modyle of arr.modules) {
