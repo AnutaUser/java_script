@@ -58,17 +58,17 @@
 //     localStorage.setItem('cars', JSON.stringify(cars));
 // };
 
-// let form3 = document.forms.form3;
-// form3.onsubmit = (e) => {
-//     e.preventDefault();
-//     let model = form3.model.value;
-//     let type = form3.type.value;
-//     let volume = form3.volume.value;
-//     let car = {model, type, volume};
-//     console.log(car);
-//     let cars = JSON.parse(localStorage.getItem('cars')) || [];
-//     cars.push(car);
-//     localStorage.setItem('cars', JSON.stringify(cars));
-// };
+let form3 = document.forms.form3;
+form3.onsubmit = (e) => {
+    e.preventDefault();
+    let model = form3.model.value;
+    let type = form3.type.value;
+    let volume = form3.volume.value;
+    let car = {model, type, volume};
+    console.log(car);
+    let cars = JSON.parse(localStorage.getItem('cars')) || [];
+    cars.push(car);
+    localStorage.setItem('cars', JSON.stringify(cars));
+};
 
 
