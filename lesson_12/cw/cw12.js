@@ -34,6 +34,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
                                     <p>Body: ${comment.body}</p>`;
                                 divPosts.append(divComments);
                             }
+                            button.disabled = true;
                         }
                     })
             }
