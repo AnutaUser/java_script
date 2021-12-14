@@ -1,0 +1,79 @@
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+    background: whitesmoke;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.users {
+    width: 320px;
+    border: 3px solid #b06ad4;
+    border-radius: 20px;
+    padding: 10px;
+}
+h3 {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.users>h3 {
+    color: #921a1a;
+}
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.users-address , .users-company{
+    margin-left: 30px;
+
+}
+.users-address-geo {
+    margin-left: 60px;
+}
+.btn {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+    text-align: center;
+}
+.users>.btn {
+    background: #bf38bd;
+}
+.posts {
+    border: 3px solid #50e5ff;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 8px;
+}
+.posts>h3 {
+    color: #1b268d;
+}
+.posts>.btn {
+    background: #50e5ff;
+}
+.posts>p, .comments>p {
+    text-align: justify;
+}
+.posts>h2, .comments>h2 {
+    text-align: center;
+}
+.comments {
+    border: 3px solid #ffe850;
+    border-radius: 15px;
+    margin-top: 7px;
+    padding: 7px;
+}
+.comments>h3 {
+    color: #8b710f;
+    margin: 0;
+}

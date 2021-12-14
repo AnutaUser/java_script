@@ -18,7 +18,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 
             let button = document.createElement('button');
             button.classList.add('btn');
-            button.innerText = 'See coments';
+            button.innerText = 'See comments';
             button.onclick = (id) => {
                 fetch('https://jsonplaceholder.typicode.com/posts/' + post.id + '/comments')
                     .then(posts => posts.json())
