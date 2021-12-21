@@ -205,24 +205,15 @@ function prepareForSleep() {
     });
 }
 
-
 // wakeUp(true)
 //     .then(morning => {
 //         console.log(morning)
 //         return washYourself(true);
 //     })
 //
-//     .catch(e => {
-//         console.error(e);
-//     })
-//
 //     .then(water => {
 //         console.log(water);
 //         return toEat(false);
-//     })
-//
-//     .catch(e => {
-//         console.error(e);
 //     })
 //
 //     .then(breakfast => {
@@ -258,23 +249,19 @@ function prepareForSleep() {
 //     .then(sleep => {
 //         console.log(sleep);
 //     })
+//
+//         .catch(e => {
+//         console.error(e);
+//     })
 
 async function oneOfDays() {
     try{
-        const morning = await wakeUp();
+        const morning = await wakeUp(true);
         console.log(morning);
-    }catch (e) {
-        console.info(e);
-    }
 
-    try {
         const washing = await washYourself();
         console.log(washing);
-    }catch (e) {
-        console.info(e);
-    }
 
-    try {
         const breakfast = await toEat();
         console.log(breakfast);
     }catch (e) {
