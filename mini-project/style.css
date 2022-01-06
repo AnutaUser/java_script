@@ -1,7 +1,170 @@
 body {
     margin: 0 auto;
+    width: 1500px;
 }
+
 .container {
     background: whitesmoke;
-    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
 }
+
+.user {
+    border: 4px solid blueviolet;
+    border-radius: 10px;
+    width: 500px;
+    background: #e4c9ec;
+    justify-content: center;
+}
+
+.user h3, h2 {
+    text-align: center;
+}
+
+.user h3 {
+    color: #602e76;
+}
+
+.btnUserDetails {
+    margin-bottom: 8px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+    text-align: center;
+    background: #c15aee;
+}
+
+.divDetails {
+    border: 4px solid #ffe850;
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+    background: #f8f4e5;
+}
+
+.btnPosts {
+    width: 90%;
+    margin-bottom: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+    text-align: center;
+    background: #ffe850;
+}
+
+.userDetails {
+    margin-left: 20px;
+}
+
+.divDetails h3 {
+    text-align: center;
+}
+
+.divDetails h3 {
+    color: #61581e;
+}
+
+.userDetailsAddress {
+    margin-left: 50px;
+}
+
+.userDetailsAddressGeo {
+    margin-left: 80px;
+}
+
+.divAllPosts {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    row-gap: 8px;
+    margin: 5px;
+    justify-content: center;
+}
+
+.divPost {
+    border: 4px solid #6b6bdc;
+    border-radius: 10px;
+    width: 180px;
+    background: #bfc9ec;
+}
+
+.btnPostsDetails {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+    text-align: center;
+    background: #6b6bdc;
+    margin-bottom: 5px;
+}
+
+.divPostDetails {
+    margin: 0 auto;
+    border: 4px solid #6b6bdc;
+    border-radius: 10px;
+    background: #bfc9ec;
+    width: 1000px;
+    padding: 10px;
+}
+
+.divPostDetails h3 {
+    text-align: center;
+    color: #1b268d;
+    margin: 5px;
+}
+
+.btnComments {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+    text-align: center;
+    background: #6b6bdc;
+    width: 90%;
+}
+
+.divAllComments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.divComment {
+    border: 4px solid coral;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 230px;
+    background: #f3e0da;
+    padding: 5px;
+}
+
+.divComment >h3 {
+    color: #a05032;
+    margin: 0;
+}
+
+.divComment >h2 {
+    margin: 5px;
+}
+
+.divComment >p {
+    text-align: justify;
+}
+
+/*// Стилизация проекта -*/
+/*// index.html - все блоки с user - по 2 в ряд. кнопки/ссылки находяться под информацией про user.*/
+/*// user-details.html - блок с информацией про user вверху страницы. Кнопка ниже, на 90% ширины страницы, по центру.*/
+/*// блоки с краткой информацией про post - в ряд по 5 объектов.*/
+/*// post-details.html - блок с информацией про пост вверху. Комментарии - по 4 в ряд.*/
+/*// Все без исключения элементы, который характеризируют user,post,comment  визуализировать, так, что бы было видно их
+ блоки (дать задний фон + margin. Иными словами - крайне четкая сетка)*/
+/*//*/

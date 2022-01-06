@@ -1,0 +1,39 @@
+@media screen and (max-width: 375px){
+    body {
+        width: 374px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .user {
+        width: 350px;
+        margin-left: 5px;
+    }
+    .divDetails {
+        width: 100%;
+    }
+    .divPost {
+        width: 160px;
+    }
+    .divPostDetails {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .divAllComments {
+        column-gap: 4px;
+        row-gap: 4px;
+    }
+    .divComment {
+        box-sizing: border-box;
+        width: 170px;
+    }
+    .divComment>h3 {
+        font-size: 12px;
+    }
+    .divComment>h2 {
+        font-size: 16px;
+    }
+    .divComment>p {
+        font-size: 12px;
+    }
+}
